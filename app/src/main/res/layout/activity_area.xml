@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bttnsave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Try1">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        app:srcCompat="@drawable/circulo" />
+
+    <EditText
+        android:id="@+id/txtprcir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del Proyecto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtfigpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tipo de Figura"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtbascirp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Diametro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtArcirp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Area"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bttnSAve"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Guardar" />
+
+</LinearLayout>
